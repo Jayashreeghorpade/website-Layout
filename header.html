@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <!DOCTYPE html>
+    <html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="header.css">
+        <link rel="stylesheet" href="slider.css">
+        <link rel="stylesheet" href="image.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+            integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+            crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <title>Document</title>
+    </head>
+
+
+    <body>
+        <!-- code for header -->
+        <div class="header_main">
+
+         <div class="left">Logo</div> 
+            <ul class="center">
+                <div class="home">
+                    <li onclick="first()">Home</li>
+
+                    <ul class="home_content">
+                        <li>Home1</li>
+                        <li>Home2</li>
+                        <li>Home3</li>
+                        <li>Home4</li>
+                    </ul>
+                </div>
+                <div class="about">
+                    <li onclick="second()">About Us</li>
+                    <ul class="about_content">
+                        <li>About1</li>
+                        <li>About2</li>
+                        <li>About3</li>
+                        <li>About4</li>
+                    </ul>
+                </div>
+                <div class="service">
+                    <li onclick="third()">Service</li>
+                    <ul class="service_content">
+                        <li>Service1</li>
+                        <li>Service2</li>
+                        <li>Service3</li>
+                        <li>Service4</li>
+                    </ul>
+                </div>
+                <div class="contact">
+                    <li onclick="forth()">Contact Us</li>
+                    <ul class="contact_content">
+                        <li>Content1</li>
+                        <li>Content2</li>
+                        <li>Content3</li>
+                        <li>Content4</li>
+                    </ul>
+                </div>
+                <div class="news">
+                    <li onclick="fifth()">News</li>
+                    <ul class="news_content">
+                        <li>News1</li>
+                        <li>News2</li>
+                        <li>News3</li>
+                        <li>News4</li>
+                    </ul>
+                </div>
+            </ul>
+
+            <div class="right">
+                <i class="fa-solid fa-magnifying-glass" title="search"></i>
+                <i class="fa-solid fa-user" title="you"></i>
+            </div>
+        </div>
+        <!-- code for slider -->
+        <div class="container">
+            <div class="image-container">
+                <img src="https://imagekit.io/blog/content/images/2019/12/image-optimization.jpg" id="content1"
+                    class="active">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS9Oyh1_FLLWGE8f02pronOFT7TBbNFmyy3ow8tTJE-84_2_IQ95fqdfgWyLdw-tMXP4FM&usqp=CAU"
+                    id="content2">
+                <img src="https://images.unsplash.com/photo-1582510003544-4d00b7f74220?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8Y2hlbm5haXxlbnwwfHwwfHx8MA%3D%3D&w=1000&q=80"
+                    id="content3">
+                <img src="https://media.istockphoto.com/id/1225173869/photo/house-boat-anchored-in-lake-with-jungle-background-backwaters-kerala-india.jpg?s=612x612&w=0&k=20&c=uo-bsRQjhlT9AgeWBs_pkSvHQwStCelMC75EUpzwjHU="
+                    id="content4">
+            </div>
+            <button id="prev" onclick="prev()"> &lt; </button>
+            <button id="next" onclick="next()"> &gt; </button>
+        </div>
+     
+        <!-- code for image -->
+        <div class="main">
+            <div class="button-point">
+            <button onclick="show()">home</button>
+            <button onclick="showon()">service</button>
+            <button onclick="showonn()">contact</button>
+            </div>
+            <div class="imagecontainer">
+            <img src="https://veer2238.github.io/button/Images/slider1.png"  id="con1" class="active">
+            <img src="https://veer2238.github.io/button/Images/slider2.png" id="con2">
+            <img src="https://veer2238.github.io/button/Images/slider3.png" id="con3">
+            </div>
+            </div>
+    </body>
+    <script src="header.js"></script>
+    <script src="slider.js"></script>
+    <script src="image.js"></script>
+
+    </html>
